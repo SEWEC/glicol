@@ -1,0 +1,3 @@
+out: ~threefour >> add ~hemiola;
+~threefour: speed 1.0 >> seq 50 40 60 >> sp \hit1;
+~hemiola: speed 0.5 >> seq 44 _ 44 _ 44 _ >> sp \blip;

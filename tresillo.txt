@@ -1,0 +1,3 @@
+out: ~oh >> add ~drum;
+~oh: speed 1.0 >> seq 50 _ _ 50 _ _ 50 _ >> sp \snare1;
+~drum: speed 2.0 >> seq 40 40 >> mul 4.0 >> sp \kick1;

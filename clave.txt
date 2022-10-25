@@ -1,0 +1,3 @@
+out: ~fourfour >> add ~clave;
+~clave: speed 1.0 >> seq 45 _ _ 45 _ _ 45 _ _ _ 50 _ 50 _ _ _ >> sp \tink;
+~fourfour: speed 1.0 >> seq 43 37 43 40 >> sp \ride;
